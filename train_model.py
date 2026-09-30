@@ -35,6 +35,6 @@ sample_student = [[7, 85]]
 prediction = model.predict(sample_student)
 
 if prediction[0] == 1:
-    print("Prediction for new student: PASSED! 🎉")
+    print("Prediction for new student: PASSED! ")
 else:
-    print("Prediction for new student: FAILED. ❌")
+    print("Prediction for new student: FAILED. ")
